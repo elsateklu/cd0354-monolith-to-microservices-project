@@ -16,6 +16,12 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: elsateklu/udagram-frontend:v1
+          image: docker.io/elsateklu/udagram-frontend:v1
           ports:
             - containerPort: 80
+          resources:
+            limits:
+              cpu: 250m
+              memory: 64Mi
+            requests:
+              cpu: 200m
