@@ -1,0 +1,1 @@
+kubectl set image deployment frontend frontend=docker.io/elsateklu/udagram-frontend:v2
