@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: docker.io/elsateklu/udagram-frontend:v2
+          image: docker.io/elsateklu/udagram-frontend:v3
           ports:
             - containerPort: 80
           resources:
