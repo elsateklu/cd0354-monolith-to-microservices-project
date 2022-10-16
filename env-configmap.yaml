@@ -9,4 +9,4 @@ data:
   AWS_BUCKET: "elsa311180778955"
   AWS_PROFILE: "default"
   JWT_SECRET: "testing"
-  URL: "http://localhost:8100"
+  URL: "http://afc9c534a67394032ab199c539ea58a7-399335081.us-east-1.elb.amazonaws.com:8100"
